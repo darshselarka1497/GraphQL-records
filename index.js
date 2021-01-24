@@ -8,4 +8,4 @@ app.get("/", (req, res) => {
 
 const port = 8000;
 
-app.listen(port, console.log("Running at "+port));
+app.listen(port, () => console.log("Running at "+port));
