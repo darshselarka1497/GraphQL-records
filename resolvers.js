@@ -27,3 +27,5 @@ const resolvers = {
         return new Job(id, input);
     }
 }
+
+export default resolvers;

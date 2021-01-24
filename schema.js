@@ -32,7 +32,7 @@ const schema = buildSchema(`
         id: ID
         jobName: String!
         category: String
-        salary: Int!
+        salary: Int
         level: String
         email: String!
         location: Location
